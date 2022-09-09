@@ -12,4 +12,4 @@
 - `git remote add origin https://github.com/Tuhacrt/Hexschool_CutboardLive_Week5.git`
 - `git remote set-url origin https://github.com/Tuhacrt/Hexschool_CutboardLive_Week5.git`
 - `git branch -M main`
-- `git push -u origin main`      // 僅限第一次輸入，往後只需要輸入 git push
+- `git push -u origin main`      // 僅限第一次輸入，往後只需要輸入 git push# Hexschool_CutboardLive_Week6
