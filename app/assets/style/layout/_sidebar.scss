@@ -1,0 +1,21 @@
+.sidebar {
+  width: 296px;
+}
+
+.nav {
+  &__item {
+    .material-icons {
+      color: black;
+      vertical-align: bottom;
+    }
+  }
+}
+
+.user {
+  &__img {
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

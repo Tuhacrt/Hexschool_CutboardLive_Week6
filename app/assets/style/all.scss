@@ -1,23 +1,20 @@
-$color: #00cc99;
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Noto+Sans+TC");
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
+@import "config/reset";
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
+@import "../../../node_modules/bootstrap/scss/bootstrap";
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+//@import "pure/buttons/buttons-core";
+//@import "pure/buttons/buttons";
+//@import "pure/forms/forms-r";
+//@import "pure/forms/forms";
+
+//@import "helper/mixin";
+//@import "helper/flex";
+@import "helper/base";
+@import "helper/component";
+@import "helper/utils";
+
+@import "layout/sidebar";
+
+@import "page/admin";

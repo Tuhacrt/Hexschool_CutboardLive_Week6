@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%- title %></title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
+
+  <body>
+    <div class="d-flex">
+      <!--<div
+        class="sidebar d-flex flex-column justify-content-between"
+        style="padding: 32px"
+      >
+        <div
+          class="sidebar__content d-flex flex-column justify-content-between"
+        >
+          <div class="sidebar__header mb-4">
+            <h1>
+              <img src="assets/images/logo-ANSWER.svg" alt="ANSWER__logo" />
+            </h1>
+          </div>
+          <ul class="sidebar__list nav d-flex flex-column">
+            <li class="nav__item mb-4">
+              <a class="link-dark text-decoration-none link-disabled" href="#"
+                ><span class="material-icons me-3"> assessment </span>
+                Dashboard</a
+              >
+            </li>
+            <li class="nav__item mb-4">
+              <a class="link-dark text-decoration-none link-disabled" href="#"
+                ><span class="material-icons me-3"> question_answer </span>
+                Question</a
+              >
+            </li>
+            <li class="nav__item mb-4">
+              <a class="link-dark text-decoration-none link-disabled" href="#"
+                ><span class="material-icons me-3"> assignment </span>
+                Assignment</a
+              >
+            </li>
+            <li class="nav__item mb-4">
+              <a class="link-dark text-decoration-none link-disabled" href="#"
+                ><span class="material-icons me-3"> video_library </span>
+                Course</a
+              >
+            </li>
+            <li class="nav__item mb-4">
+              <a class="link-success text-decoration-none active" href="#"
+                ><span class="material-icons me-3 link-success"> people </span>
+                Admin</a
+              >
+            </li>
+            <li class="nav__item mb-4">
+              <a class="link-dark text-decoration-none link-disabled" href="#"
+                ><span class="material-icons me-3"> settings </span> Settings</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar__profile">
+          <div class="user d-flex">
+            <div class="user__img me-3">
+              <img
+                class="rounded-circle"
+                src="assets/images/andychen.jpeg"
+                alt="user__img"
+              />
+            </div>
+            <div class="user__info">
+              <h5 class="mb-1 fs-6" style="line-height: 1.2">Andy Chen</h5>
+              <p
+                class="mb-0 text-muted"
+                style="font-size: 14px; line-height: 1.2"
+              >
+                andy0401@mail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>-->
+      <main class="admin d-flex flex-column" style="padding: 32px">
+        <div class="admin__header admin__container d-flex">
+          <h4
+            class="mb-5"
+            style="font-size: 24px; line-height: 32px; margin-right: 36px"
+          >
+            Admin
+          </h4>
+          <div class="admin__header__functions d-flex row w-100">
+            <div class="admin__add col">
+              <a class="link-dark d-flex" href="@"
+                ><span class="material-icons text-success mt-1 me-2">add</span>
+                <span class="mt-1 mb-0 fw-bold">Add New Admin</span></a
+              >
+            </div>
+            <div class="admin__sub col-auto">
+              <span class="material-icons mt-1 me-4">search</span
+              ><span class="material-icons mt-1">notifications_active</span>
+            </div>
+          </div>
+        </div>
+        <div class="admin__listHeader">
+          <ul
+            class="admin__listHeader__list row border-bottom border-dark mb-0"
+          >
+            <li class="admin__listHeader__item col-1 me-4 fw-bold">
+              ID<span class="material-icons text-success fs-6 mb-1 ms-1"
+                >arrow_downward</span
+              >
+            </li>
+            <li class="admin__listHeader__item col-3 fw-bold">Name</li>
+            <li class="admin__listHeader__item col-4 fw-bold">Email</li>
+            <li class="admin__listHeader__item col-2 fw-bold">Verified</li>
+            <li class="admin__listHeader__item col-auto fw-bold"></li>
+          </ul>
+        </div>
+        <ul class="admin__list" style="margin-bottom: 64px">
+          <ul class="admin__item row pt-3 pb-3 border-bottom">
+            <li class="admin__itemInfo col-1 me-4">#1</li>
+            <li class="admin__itemInfo col-3">Emir Wicks</li>
+            <li class="admin__itemInfo col-4">emir.wicks@mail.com</li>
+            <li class="admin__itemInfo col-2">Yes</li>
+            <li class="admin__itemInfo col-auto ps-4">
+              <span class="material-icons ms-4 me-4">visibility</span
+              ><span class="material-icons">edit</span>
+            </li>
+          </ul>
+          <ul class="admin__item row pt-3 pb-3 border-bottom">
+            <li class="admin__itemInfo col-1 me-4">#2</li>
+            <li class="admin__itemInfo col-3">Zaina Goldsmith</li>
+            <li class="admin__itemInfo col-4">zaina.goldsmith@mail.com</li>
+            <li class="admin__itemInfo col-2">Yes</li>
+            <li class="admin__itemInfo col-auto ps-4">
+              <span class="material-icons ms-4 me-4">visibility</span
+              ><span class="material-icons">edit</span>
+            </li>
+          </ul>
+          <ul class="admin__item row pt-3 pb-3 border-bottom">
+            <li class="admin__itemInfo col-1 me-4">#3</li>
+            <li class="admin__itemInfo col-3">Mahima Lopez</li>
+            <li class="admin__itemInfo col-4">mahima.lopez@mail.com</li>
+            <li class="admin__itemInfo col-2">Yes</li>
+            <li class="admin__itemInfo col-auto ps-4">
+              <span class="material-icons ms-4 me-4">visibility</span
+              ><span class="material-icons">edit</span>
+            </li>
+          </ul>
+          <ul class="admin__item row pt-3 pb-3 border-bottom">
+            <li class="admin__itemInfo col-1 me-4">#4</li>
+            <li class="admin__itemInfo col-3">Pharrell Murray</li>
+            <li class="admin__itemInfo col-4">pharrell.murray@mail.com</li>
+            <li class="admin__itemInfo col-2">Yes</li>
+            <li class="admin__itemInfo col-auto ps-4">
+              <span class="material-icons ms-4 me-4">visibility</span
+              ><span class="material-icons">edit</span>
+            </li>
+          </ul>
+          <ul class="admin__item row pt-3 pb-3 border-bottom">
+            <li class="admin__itemInfo col-1 me-4">#5</li>
+            <li class="admin__itemInfo col-3">Annika Mcbride</li>
+            <li class="admin__itemInfo col-4">annika.mcbride@mail.com</li>
+            <li class="admin__itemInfo col-2">Yes</li>
+            <li class="admin__itemInfo col-auto ps-4">
+              <span class="material-icons ms-4 me-4">visibility</span
+              ><span class="material-icons">edit</span>
+            </li>
+          </ul>
+          <ul class="admin__item row pt-3 pb-3 border-bottom">
+            <li class="admin__itemInfo col-1 me-4">#6</li>
+            <li class="admin__itemInfo col-3">Fatimah Clark</li>
+            <li class="admin__itemInfo col-4">fatimah.clark@mail.com</li>
+            <li class="admin__itemInfo col-2">Yes</li>
+            <li class="admin__itemInfo col-auto ps-4">
+              <span class="material-icons ms-4 me-4">visibility</span
+              ><span class="material-icons">edit</span>
+            </li>
+          </ul>
+          <ul class="admin__item row pt-3 pb-3 border-bottom">
+            <li class="admin__itemInfo col-1 me-4">#7</li>
+            <li class="admin__itemInfo col-3">Klaudia Rhodes</li>
+            <li class="admin__itemInfo col-4">klaudia.rhodes@mail.com</li>
+            <li class="admin__itemInfo col-2">Yes</li>
+            <li class="admin__itemInfo col-auto ps-4">
+              <span class="material-icons ms-4 me-4">visibility</span
+              ><span class="material-icons">edit</span>
+            </li>
+          </ul>
+          <ul class="admin__item row pt-3 pb-3 border-bottom">
+            <li class="admin__itemInfo col-1 me-4">#8</li>
+            <li class="admin__itemInfo col-3">Tillie Lucero</li>
+            <li class="admin__itemInfo col-4">tillie.lucero@mail.com</li>
+            <li class="admin__itemInfo col-2">Yes</li>
+            <li class="admin__itemInfo col-auto ps-4">
+              <span class="material-icons ms-4 me-4">visibility</span
+              ><span class="material-icons">edit</span>
+            </li>
+          </ul>
+          <ul class="admin__item row pt-3 pb-3 border-bottom">
+            <li class="admin__itemInfo col-1 me-4">#9</li>
+            <li class="admin__itemInfo col-3">Sabrina Stephenson</li>
+            <li class="admin__itemInfo col-4">sabrina.stephenson@mail.com</li>
+            <li class="admin__itemInfo col-2">Yes</li>
+            <li class="admin__itemInfo col-auto ps-4">
+              <span class="material-icons ms-4 me-4">visibility</span
+              ><span class="material-icons">edit</span>
+            </li>
+          </ul>
+          <ul class="admin__item row pt-3 pb-3 border-bottom">
+            <li class="admin__itemInfo col-1 me-4">#10</li>
+            <li class="admin__itemInfo col-3">Annie Smith</li>
+            <li class="admin__itemInfo col-4">annie.smith@mail.com</li>
+            <li class="admin__itemInfo col-2">Yes</li>
+            <li class="admin__itemInfo col-auto ps-4">
+              <span class="material-icons ms-4 me-4">visibility</span
+              ><span class="material-icons">edit</span>
+            </li>
+          </ul>
+        </ul>
+        <div class="admin__pagination d-flex justify-content-end">
+          <ul class="admin__pagination__list d-flex text-center">
+            <li
+              class="admin__pagination__item py-1 text-success border border-success"
+              style="width: 32px"
+            >
+              <span class="material-icons">chevron_left</span>
+            </li>
+            <li
+              class="admin__pagination__item py-1 text-success border border-success"
+              style="width: 32px"
+            >
+              1
+            </li>
+            <li
+              class="admin__pagination__item py-1 text-success border border-success"
+              style="width: 32px"
+            >
+              2
+            </li>
+            <li
+              class="admin__pagination__item py-1 text-success border border-success"
+              style="width: 32px"
+            >
+              3
+            </li>
+            <li
+              class="admin__pagination__item py-1 text-success border border-success"
+              style="width: 32px"
+            >
+              <span class="material-icons">chevron_right</span>
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>
