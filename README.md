@@ -1,8 +1,8 @@
-# 網頁切版直播班 第五週任務
+# 網頁切版直播班 第六週任務
 
-- [Github pages](https://tuhacrt.github.io/Hexschool_CutboardLive_Week5/)
+- [Github pages](https://tuhacrt.github.io/Hexschool_CutboardLive_Week6/)
 - discord ID :Tuhacrt#0008
-- 任務等級：Not yet
+- 任務等級：Lv1
 
 > 使用 gulp 需要使用的指令
 
